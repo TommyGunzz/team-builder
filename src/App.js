@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import data from "./data";
-import TeamMembers from ".src/components/TeamMembers";
+import TeamMembers from "./components/TeamMembers";
 import { Container, Row } from "reactstrap";
-import AddForm from ".src/components/Form";
+import AddForm from "./components/Form";
 import "./App.css";
 
 function App() {
