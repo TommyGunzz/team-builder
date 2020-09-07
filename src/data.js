@@ -6,12 +6,12 @@ const team = [
     },
     {
       name: "Steve Jobs", 
-      email: "stevejobs@apple.com",
+      email: "steve_jobs@apple.com",
       role: "UX Designer",
     },
     {
       name: "Nasra Aden", 
-      email: "nasaraaden@gmail.com",
+      email: "nasra_aden@gmail.com",
       role: "Data Science",
     },
   ];

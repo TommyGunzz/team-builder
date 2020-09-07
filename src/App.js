@@ -27,7 +27,7 @@ function App() {
       });
       setTeam(newTeam);
     }
-  },[memberToEdit]);
+  },[memberToEdit, team]);
 
   return (
     <Container>
