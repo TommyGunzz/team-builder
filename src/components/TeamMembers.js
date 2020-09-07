@@ -23,12 +23,11 @@ import { Card, CardText, CardBody, CardTitle,
     const btn_active = isEditing ? true : false;
   
     return (
-      <Col xs="6" md="4" b xl="3" className="Member">
+      <Col xs="6" md="4" xl="3" className="Member">
         <Card>
           <CardBody>
             <CardTitle>{data.name}</CardTitle>
             <CardSubtitle>{data.role}</CardSubtitle>
-            <hr />
             <CardText>{data.email}</CardText>
             <Button
               color={btn_color}

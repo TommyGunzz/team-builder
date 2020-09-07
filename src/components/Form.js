@@ -42,7 +42,7 @@ const AddForm = ({ updateTeam, memberToEdit, isEditing, sendEditedMember }) => {
     return (
       <Form className="Form" onSubmit={(e) => handleSubmit(e)}>
         <h1>New Member Form</h1>
-        <hr />
+        
         <FormGroup>
           <Label for="form_name">Name</Label>
           <Input
@@ -79,6 +79,7 @@ const AddForm = ({ updateTeam, memberToEdit, isEditing, sendEditedMember }) => {
           />
         </FormGroup>
         <Button color={btn_color}>{btn_text}</Button>
+        
       </Form>
     );
   };
